@@ -111,5 +111,3 @@ class Vehicles extends Component {
 }
 
 export default Vehicles;
-
-
