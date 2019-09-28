@@ -49,7 +49,7 @@ class Advantages extends Component {
                     {this.state.data.map((element, index) => {
                         return (
                             <div className="col-3 mr-5 ">
-                                <AdvantagesCard info={element}/>
+                                <AdvantagesCard info={element} />
                             </div>
                         );
                     })}

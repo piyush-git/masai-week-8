@@ -4,5 +4,13 @@
 }
 
 #topImage {
-    width: 110vw;
+    width: 100vw;
+}
+
+/* #carouselExampleInterval {
+     background-image: url('http://www.diwyy.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-22-at-7.59.50-AM.png'); 
+} */
+
+.carouselImg {
+    height: 300px;
 }

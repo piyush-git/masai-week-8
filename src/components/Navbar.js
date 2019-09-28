@@ -3,6 +3,7 @@ import { Route, Link } from "react-router-dom";
 import '../App.css'
 import Home from './Home/Home';
 import Vehicles from './Vehicles';
+import Booking from './Home/Booking';
 // import About from './About';
 // import FAQ from './FAQ';
 // import Contact from './Contact';
@@ -23,13 +24,19 @@ class Navbar extends Component {
             <button className="btn btn-info mr-5">
               <Link className="nav-link text-light" to="/locations">Our Locations</Link>
             </button>
+            <button className="btn btn-info mr-5">
+              <Link className="nav-link text-light" to="/booking">Booking</Link>
+            </button>
+
             <Link to="/vehicles"><img src="./carLogo.svg" style={{height: '80px'}} alt="#" /></Link>
-            
           </nav>
 
             <Route path="/" exact component={Home}></Route>
             <Route path="/vehicles" component={Vehicles}></Route>
+            <Route path="/booking" component={Booking}></Route>
+
             {/* <Route path="/vehicles" component={Locations}></Route> */}
+            
 
 
 

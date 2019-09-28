@@ -1,6 +1,7 @@
 import React from 'react';
 import TopBanner from './TopBanner';
 import Advantages from './Advantages';
+import Carousel from './Carousel';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Showcase />       */}
       <TopBanner />
       <Advantages />
+      <Carousel />
     </div>
     );
   };
