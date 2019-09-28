@@ -17,7 +17,7 @@ const data = {
       label: 'June Car Bookings',
       fill: true,
       lineTension: 0.1,
-      backgroundColor: 'rgba(75,192,192,0.4)',
+      backgroundColor: 'rgba(75,192,192,0.3)',
       borderColor: 'rgba(75,192,192,1)',
       borderCapStyle: 'butt',
       borderDash: [],
