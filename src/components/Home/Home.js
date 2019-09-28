@@ -1,14 +1,16 @@
 import React from 'react';
-// import Showcase from './Showcase';
+import TopBanner from './TopBanner';
+import Advantages from './Advantages';
 
 const Home = () => {
     return (
     <div>
       {/* <Carousel />
 
-      <TopBanner />
 
       <Showcase />       */}
+      <TopBanner />
+      <Advantages />
     </div>
     );
   };
