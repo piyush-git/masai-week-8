@@ -3,6 +3,7 @@ import { Route, Link } from "react-router-dom";
 import Booking from './Home/Booking'
 
 const VehicleCard = (props) => {
+    // console.log(props.index)
     return (
         <div className="text-center mt-5">
             <div className="row">

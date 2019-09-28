@@ -6,10 +6,6 @@ import Carousel from './Carousel';
 const Home = () => {
     return (
     <div>
-      {/* <Carousel />
-
-
-      <Showcase />       */}
       <TopBanner />
       <Advantages />
       <Carousel />

@@ -99,7 +99,7 @@ class Vehicles extends Component {
                     })} */}
                     {this.state.data.filter(element => (this.state.typeCheck === 0 ?  element : element.carType === this.state.typeCheck)).map((element, index) => {
                         return (
-                            <div className="col-sm-1 col col-lg-3 mr-5 ">
+                            <div key={index}  className="col-sm-1 col col-lg-3 mr-5 ">
                                 <VehicleCard info={element} index={index}/>
                             </div>
                         );

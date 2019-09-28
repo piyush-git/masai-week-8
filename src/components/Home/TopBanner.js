@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 const TopBanner = () => {
     return (
-    
       <div >
           <div id="topImage">
             <img id="topImage" className="row mt-5" src="./topImage.png" alt="#" />   
